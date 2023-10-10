@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #003A76;
+    --secondary-color: #95C342;
+    --third-color: #000;
+}
+body {
+    background-color: var(--primary-color);
+}
+.navbar {
+    background-color: #FFF !important;
+}
+.menu {
+    background-color: var(--primary-color);
+}
+.menu .nav-link {
+    color: var(--secondary-color);
+}
+.menu .nav-link:hover {
+    color: #FFF;
+}
+.week img {
+    width: 15%;
+}
+.offers .nav-tabs {
+    background-color: #FFF;
+}
+.offers .nav-link {
+    color: #333;
+    border: 0;
+}
+.offers .nav-link:hover {
+    border: 0;
+    color: var(--secondary-color);
+}
+.offers .nav-link.active {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
